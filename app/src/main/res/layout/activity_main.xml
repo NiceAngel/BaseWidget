@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.duatp.simplecalculator.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint1"
+        android:id="@+id/Text1"
+        android:inputType="number|numberSigned|numberDecimal"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text2"
+        android:hint="@string/Hint2"
+        android:inputType="number|numberSigned|numberDecimal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Add"
+        android:id="@+id/Addbutton"
+        android:onClick="onAddClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sub"
+        android:id="@+id/SubButton2"
+        android:onClick="onSubClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Mul"
+        android:id="@+id/MulButton3"
+        android:onClick="onMulClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Div"
+        android:id="@+id/DivButton4"
+        android:onClick="onDivClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Divx"
+        android:id="@+id/DivxButton5"
+        android:onClick="onDivxClicked"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextView"
+        android:id="@+id/TextView"
+        android:textSize="30dp"/>
+
+</LinearLayout>
